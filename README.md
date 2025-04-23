@@ -12,10 +12,6 @@ A simple RESTful API built in Go for managing a collection of books. This projec
 
 ---
 
-## 📁 Project Structure
-
-book_store_Golang/ ├── cmd/ │ └── main/ │ └── main.go # Entry point of the application ├── pkg/ │ ├── handlers/ # HTTP handlers for API endpoints │ ├── models/ # Data models representing book entities │ └── repository/ # In-memory data storage and operations ├── go.mod # Go module definition ├── go.sum # Go module checksums └── README.md # Project documentation
-
 ```yaml
 ---
 
@@ -43,11 +39,11 @@ The server will start at http://localhost:8080.
 🌐 API Endpoints
 
 Method	Endpoint	Description
-GET	/books	Get all books
-GET	/books/{id}	Get a single book by ID
-POST	/books	Create a new book
-PUT	/books/{id}	Update a book by ID
-DELETE	/books/{id}	Delete a book by ID
+- GET	/books	Get all books
+- GET	/books/{id}	Get a single book by ID
+- POST	/books	Create a new book
+- PUT	/books/{id}	Update a book by ID
+- DELETE	/books/{id}	Delete a book by ID
 📌 Note: All data is stored in-memory and will be lost upon server restart.
 
 🤝 Contributing
