@@ -44,7 +44,7 @@ Method	Endpoint	Description
 - POST	/books	Create a new book
 - PUT	/books/{id}	Update a book by ID
 - DELETE	/books/{id}	Delete a book by ID
-📌 Note: All data is stored in-memory and will be lost upon server restart.
+- 📌 Note: All data is stored in-memory and will be lost upon server restart.
 
 🤝 Contributing
 Contributions are welcome! Feel free to fork the repo, open an issue, or submit a pull request.
