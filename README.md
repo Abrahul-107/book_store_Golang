@@ -14,17 +14,7 @@ A simple RESTful API built in Go for managing a collection of books. This projec
 
 ## 📁 Project Structure
 
-book_store_Golang/
-├── cmd/
-│   └── main/
-│       └── main.go       # Entry point of the application
-├── pkg/
-│   ├── handlers/         # HTTP handlers for API endpoints
-│   ├── models/           # Data models representing book entities
-│   └── repository/       # In-memory data storage and operations
-├── go.mod                # Go module definition
-├── go.sum                # Go module checksums
-└── README.md             # Project documentation
+book_store_Golang/ ├── cmd/ │ └── main/ │ └── main.go # Entry point of the application ├── pkg/ │ ├── handlers/ # HTTP handlers for API endpoints │ ├── models/ # Data models representing book entities │ └── repository/ # In-memory data storage and operations ├── go.mod # Go module definition ├── go.sum # Go module checksums └── README.md # Project documentation
 
 ---
 
